@@ -1,0 +1,257 @@
+# Ce fichier viminfo a été généré par Vim 7.4.
+# Vous pouvez l'éditer, mais soyez prudent.
+
+# 'encoding' dans lequel ce fichier a été écrit
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Historique ligne de commande (chronologie décroissante) :
+:q
+:wq
+:WQ
+:help airline-configuration
+:help airline
+:help
+:PluginInstall
+:source %
+:q!
+:BundleInstall
+
+# Historique chaîne de recherche (chronologie décroissante) :
+
+# Historique expression (chronologie décroissante) :
+
+# Historique ligne de saisie (chronologie décroissante) :
+
+# Historique ligne de saisie (chronologie décroissante) :
+
+# Registres :
+"0	CHAR	0
+	
+	* the separator used on the left side >
+	  let g:airline_left_sep='>'
+	<
+	* the separator used on the right side >
+	  let g:airline_right_sep='<'
+	<
+	* enable modified detection >
+	  let g:airline_detect_modified=1
+	
+	* enable paste detection >
+	  let g:airline_detect_paste=1
+	<
+	* enable crypt detection >
+	  let g:airline_detect_crypt=1
+	<
+	* enable iminsert detection >
+	  let g:airline_detect_iminsert=0
+	<
+	* determine whether inactive windows should have the left section collapsed to
+	  only the filename of that buffer.  >
+	  let g:airline_inactive_collapse=1
+"1	LINE	0
+	set number
+"2	LINE	0
+	"
+"3	LINE	0
+	  let g:airline_inactive_collapse=1 
+"4	LINE	0
+	  only the filename of that buffer.  >
+"5	LINE	0
+	* determine whether inactive windows should have the left section collapsed to
+"6	LINE	0
+	<
+"7	LINE	0
+	  let g:airline_detect_iminsert=0
+"8	LINE	0
+	* enable iminsert detection >
+"9	LINE	0
+	<
+"l	CHAR	0
+	jkdl
+""-	CHAR	0
+	1
+
+# Marques dans le fichier :
+'0  1  0  ~/.vimrc
+'1  44  11  ~/.vimrc
+'2  43  14  ~/.vimrc
+'3  46  0  ~/.vimrc
+'4  47  9  ~/.vimrc
+'5  44  11  ~/.vimrc
+'6  47  0  ~/.vimrc
+'7  17  0  ~/.vimrc
+'8  1  0  ~/texte
+'9  58  0  ~/.vimrc
+
+# Liste de sauts (le plus récent en premier) :
+-'  1  0  ~/.vimrc
+-'  44  11  ~/.vimrc
+-'  43  14  ~/.vimrc
+-'  46  0  ~/.vimrc
+-'  47  9  ~/.vimrc
+-'  17  0  ~/.vimrc
+-'  12  1  ~/.vimrc
+-'  1  0  ~/texte
+-'  58  0  ~/.vimrc
+-'  64  0  ~/.vimrc
+-'  66  0  ~/.vimrc
+-'  57  0  ~/.vimrc
+-'  1  0  ~/texte
+-'  13  0  ~/.vimrc
+-'  19  0  ~/.vimrc
+-'  21  0  ~/.vimrc
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  80  0  ~/.vimrc
+-'  86  0  ~/.vimrc
+-'  88  0  ~/.vimrc
+-'  79  0  ~/.vimrc
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  63  0  ~/.vimrc
+-'  65  0  ~/.vimrc
+-'  56  0  ~/.vimrc
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  1  0  ~/texte
+-'  48  9  ~/.vimrc
+-'  45  0  ~/.vimrc
+
+# Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> ~/.vimrc
+	"	1	0
+	^	44	12
+	.	44	11
+	+	1	0
+	+	57	0
+	+	56	0
+	+	61	0
+	+	66	0
+	+	66	0
+	+	67	0
+	+	70	0
+	+	73	0
+	+	71	0
+	+	68	0
+	+	66	0
+	+	66	0
+	+	63	0
+	+	64	0
+	+	42	0
+	+	1	0
+	+	12	0
+	+	12	0
+	+	12	0
+	+	13	0
+	+	12	5
+	+	16	0
+	+	18	0
+	+	20	0
+	+	22	0
+	+	25	0
+	+	27	0
+	+	28	0
+	+	26	0
+	+	23	0
+	+	21	0
+	+	19	0
+	+	17	0
+	+	47	0
+	+	47	1
+	+	47	0
+	+	3	0
+	+	44	11
+	+	46	43
+	+	44	37
+	+	44	48
+	+	47	0
+	+	44	16
+	+	45	3
+	+	44	11
+	+	43	15
+	+	44	11
+
+> ~/.vim/bundle/vim-airline/doc/airline.txt
+	"	60	0
+
+> /usr/share/vim/vim74/doc/help.txt
+	"	1	0
+
+> ~/[Vundle] Installer
+	"	5	0
+	.	1	0
+	+	19	0
+	+	9	0
+	+	5	0
+	+	1	0
+
+> ~/texte
+	"	1	0
+
+> /tmp/vlatho1/7
+	"	1	0
