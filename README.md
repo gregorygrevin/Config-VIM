@@ -13,7 +13,7 @@ Configuration personnalisée pour Vim
 <code>git clone https://github.com/gregorygrevin/Config-VIM.git $HOME</code></p>
 <p>Il faut penser à cloner le dépôt de Vundle dans le dossier 
 <code>~/.vim/bundle/vundle</code>à l'aide de la commande :
-<code>git clone https://github.com/gmarik/Vundle.vim.git $HOME/.vim/bundle/vundle</code><br/></p>
+<code>git clone https://github.com/gmarik/Vundle.vim.git $HOME/.vim/bundle/Vundle</code><br/></p>
 -----------------------------------------------
 
 ##Installation
