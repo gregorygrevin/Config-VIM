@@ -28,46 +28,48 @@
 # Historique ligne de saisie (chronologie décroissante) :
 
 # Registres :
-""0	CHAR	0
+"0	CHAR	0
 	<br/><code>:BundleInstall</code><br/>
-"1	LINE	0
-	set number
+""1	LINE	0
+	
+	
 "2	LINE	0
-	"
+	<p>Inclus les plugins <b>NeoComplCache</b> et <b>NERDTree</b>, ainsi que les themes <i>Tomorrow-Night ( activé de base lors du clonage ) BusyBee Symfony Two2tango</i> ( à choisir dans le fichier<code>.vimrc</code>).</p>
 "3	LINE	0
-	  let g:airline_inactive_collapse=1 
+	set number
 "4	LINE	0
-	  only the filename of that buffer.  >
+	"
 "5	LINE	0
-	* determine whether inactive windows should have the left section collapsed to
+	  let g:airline_inactive_collapse=1 
 "6	LINE	0
-	<
+	  only the filename of that buffer.  >
 "7	LINE	0
-	  let g:airline_detect_iminsert=0
+	* determine whether inactive windows should have the left section collapsed to
 "8	LINE	0
-	* enable iminsert detection >
-"9	LINE	0
 	<
+"9	LINE	0
+	  let g:airline_detect_iminsert=0
 "l	CHAR	0
 	jkdl
 "-	CHAR	0
 	1
 
 # Marques dans le fichier :
-'0  23  31  ~/README.md
-'1  35  0  ~/Memo_VIM
-'2  1  0  ~/.vimrc
-'3  44  11  ~/.vimrc
-'4  43  14  ~/.vimrc
-'5  46  0  ~/.vimrc
-'6  47  9  ~/.vimrc
-'7  44  11  ~/.vimrc
-'8  47  0  ~/.vimrc
-'9  17  0  ~/.vimrc
+'0  25  0  ~/README.md
+'1  23  31  ~/README.md
+'2  35  0  ~/Memo_VIM
+'3  1  0  ~/.vimrc
+'4  44  11  ~/.vimrc
+'5  43  14  ~/.vimrc
+'6  46  0  ~/.vimrc
+'7  47  9  ~/.vimrc
+'8  44  11  ~/.vimrc
+'9  47  0  ~/.vimrc
 
 # Liste de sauts (le plus récent en premier) :
--'  23  31  ~/README.md
+-'  25  0  ~/README.md
 -'  1  0  ~/README.md
+-'  23  31  ~/README.md
 -'  35  0  ~/Memo_VIM
 -'  1  0  ~/Memo_VIM
 -'  1  0  ~/.vimrc
@@ -167,11 +169,12 @@
 # Historique des marques dans les fichiers (les plus récentes en premier) :
 
 > ~/README.md
-	"	23	31
+	"	25	0
 	^	23	32
-	.	23	31
+	.	26	0
 	+	22	36
 	+	23	31
+	+	26	0
 
 > ~/Memo_VIM
 	"	35	0

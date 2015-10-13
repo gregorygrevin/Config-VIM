@@ -23,6 +23,3 @@ Configuration personnalisée pour Vim
 <code>:PluginInstall</code><br/>
 Afin que tout les plugins puissent être installer à l'aide des dépôts déclarés dans le fichier<code>.vimrc</code>.</p>
 
-
-
-<p>Inclus les plugins <b>NeoComplCache</b> et <b>NERDTree</b>, ainsi que les themes <i>Tomorrow-Night ( activé de base lors du clonage ) BusyBee Symfony Two2tango</i> ( à choisir dans le fichier<code>.vimrc</code>).</p>
