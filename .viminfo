@@ -8,8 +8,8 @@
 # hlsearch on (H) or off (h):
 ~h
 # Historique ligne de commande (chronologie décroissante) :
-:q
 :wq
+:q
 :WQ
 :help airline-configuration
 :help airline
@@ -75,18 +75,20 @@
 	1
 
 # Marques dans le fichier :
-'0  1  0  ~/.vimrc
-'1  44  11  ~/.vimrc
-'2  43  14  ~/.vimrc
-'3  46  0  ~/.vimrc
-'4  47  9  ~/.vimrc
-'5  44  11  ~/.vimrc
-'6  47  0  ~/.vimrc
-'7  17  0  ~/.vimrc
-'8  1  0  ~/texte
-'9  58  0  ~/.vimrc
+'0  23  22  ~/README.md
+'1  1  0  ~/.vimrc
+'2  44  11  ~/.vimrc
+'3  43  14  ~/.vimrc
+'4  46  0  ~/.vimrc
+'5  47  9  ~/.vimrc
+'6  44  11  ~/.vimrc
+'7  47  0  ~/.vimrc
+'8  17  0  ~/.vimrc
+'9  1  0  ~/texte
 
 # Liste de sauts (le plus récent en premier) :
+-'  23  22  ~/README.md
+-'  1  0  ~/README.md
 -'  1  0  ~/.vimrc
 -'  44  11  ~/.vimrc
 -'  43  14  ~/.vimrc
@@ -180,8 +182,18 @@
 -'  1  0  ~/texte
 -'  48  9  ~/.vimrc
 -'  45  0  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  44  11  ~/.vimrc
+-'  43  14  ~/.vimrc
+-'  46  0  ~/.vimrc
 
 # Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> ~/README.md
+	"	23	22
+	^	23	23
+	.	22	23
+	+	22	23
 
 > ~/.vimrc
 	"	1	0
