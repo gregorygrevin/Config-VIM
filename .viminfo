@@ -54,7 +54,7 @@
 	1
 
 # Marques dans le fichier :
-'0  23  17  ~/README.md
+'0  23  26  ~/README.md
 '1  35  0  ~/Memo_VIM
 '2  1  0  ~/.vimrc
 '3  44  11  ~/.vimrc
@@ -66,7 +66,7 @@
 '9  17  0  ~/.vimrc
 
 # Liste de sauts (le plus récent en premier) :
--'  23  17  ~/README.md
+-'  23  26  ~/README.md
 -'  1  0  ~/README.md
 -'  35  0  ~/Memo_VIM
 -'  1  0  ~/Memo_VIM
@@ -167,11 +167,11 @@
 # Historique des marques dans les fichiers (les plus récentes en premier) :
 
 > ~/README.md
-	"	23	17
-	^	23	18
-	.	23	17
+	"	23	26
+	^	23	27
+	.	23	27
 	+	22	36
-	+	23	17
+	+	23	27
 
 > ~/Memo_VIM
 	"	35	0
