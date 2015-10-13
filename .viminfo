@@ -28,29 +28,8 @@
 # Historique ligne de saisie (chronologie décroissante) :
 
 # Registres :
-"0	CHAR	0
-	
-	* the separator used on the left side >
-	  let g:airline_left_sep='>'
-	<
-	* the separator used on the right side >
-	  let g:airline_right_sep='<'
-	<
-	* enable modified detection >
-	  let g:airline_detect_modified=1
-	
-	* enable paste detection >
-	  let g:airline_detect_paste=1
-	<
-	* enable crypt detection >
-	  let g:airline_detect_crypt=1
-	<
-	* enable iminsert detection >
-	  let g:airline_detect_iminsert=0
-	<
-	* determine whether inactive windows should have the left section collapsed to
-	  only the filename of that buffer.  >
-	  let g:airline_inactive_collapse=1
+""0	CHAR	0
+	<br/><code>:BundleInstall</code><br/>
 "1	LINE	0
 	set number
 "2	LINE	0
@@ -71,12 +50,12 @@
 	<
 "l	CHAR	0
 	jkdl
-""-	CHAR	0
+"-	CHAR	0
 	1
 
 # Marques dans le fichier :
-'0  35  0  ~/Memo_VIM
-'1  23  22  ~/README.md
+'0  23  17  ~/README.md
+'1  35  0  ~/Memo_VIM
 '2  1  0  ~/.vimrc
 '3  44  11  ~/.vimrc
 '4  43  14  ~/.vimrc
@@ -87,10 +66,10 @@
 '9  17  0  ~/.vimrc
 
 # Liste de sauts (le plus récent en premier) :
+-'  23  17  ~/README.md
+-'  1  0  ~/README.md
 -'  35  0  ~/Memo_VIM
 -'  1  0  ~/Memo_VIM
--'  23  22  ~/README.md
--'  1  0  ~/README.md
 -'  1  0  ~/.vimrc
 -'  44  11  ~/.vimrc
 -'  43  14  ~/.vimrc
@@ -184,10 +163,15 @@
 -'  1  0  ~/texte
 -'  48  9  ~/.vimrc
 -'  45  0  ~/.vimrc
--'  1  0  ~/.vimrc
--'  44  11  ~/.vimrc
 
 # Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> ~/README.md
+	"	23	17
+	^	23	18
+	.	23	17
+	+	22	36
+	+	23	17
 
 > ~/Memo_VIM
 	"	35	0
@@ -196,12 +180,6 @@
 	+	1	5
 	+	41	28
 	+	1	13
-
-> ~/README.md
-	"	23	22
-	^	23	23
-	.	22	23
-	+	22	23
 
 > ~/.vimrc
 	"	1	0

@@ -20,6 +20,7 @@ Configuration personnalisée pour Vim
 
 <p>Lancez <code>vim</code> et exécutez la commande : 
 <br/><code>:BundleInstall</code><br/>
+<br/><code>:PluginInstall</code><br/>
 Afin que tout les plugins puissent être installer à l'aide des dépôts déclarés dans le fichier<code>.vimrc</code>.</p>
 
 
