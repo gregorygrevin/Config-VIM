@@ -75,18 +75,20 @@
 	1
 
 # Marques dans le fichier :
-'0  23  22  ~/README.md
-'1  1  0  ~/.vimrc
-'2  44  11  ~/.vimrc
-'3  43  14  ~/.vimrc
-'4  46  0  ~/.vimrc
-'5  47  9  ~/.vimrc
-'6  44  11  ~/.vimrc
-'7  47  0  ~/.vimrc
-'8  17  0  ~/.vimrc
-'9  1  0  ~/texte
+'0  35  0  ~/Memo_VIM
+'1  23  22  ~/README.md
+'2  1  0  ~/.vimrc
+'3  44  11  ~/.vimrc
+'4  43  14  ~/.vimrc
+'5  46  0  ~/.vimrc
+'6  47  9  ~/.vimrc
+'7  44  11  ~/.vimrc
+'8  47  0  ~/.vimrc
+'9  17  0  ~/.vimrc
 
 # Liste de sauts (le plus récent en premier) :
+-'  35  0  ~/Memo_VIM
+-'  1  0  ~/Memo_VIM
 -'  23  22  ~/README.md
 -'  1  0  ~/README.md
 -'  1  0  ~/.vimrc
@@ -184,10 +186,16 @@
 -'  45  0  ~/.vimrc
 -'  1  0  ~/.vimrc
 -'  44  11  ~/.vimrc
--'  43  14  ~/.vimrc
--'  46  0  ~/.vimrc
 
 # Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> ~/Memo_VIM
+	"	35	0
+	^	35	1
+	.	1	13
+	+	1	5
+	+	41	28
+	+	1	13
 
 > ~/README.md
 	"	23	22
