@@ -7,19 +7,27 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Dernier motif de recherche  :
+~MSle0~/server
+
 # Historique ligne de commande (chronologie décroissante) :
-:wq
 :q
+:wq
 :q!
+:wq!
+:w!
+:b2
+:PluginInstall
 :WQ
 :help airline-configuration
 :help airline
 :help
-:PluginInstall
 :source %
 :BundleInstall
 
 # Historique chaîne de recherche (chronologie décroissante) :
+?/server
+? \<do\>
 
 # Historique expression (chronologie décroissante) :
 
@@ -30,7 +38,7 @@
 # Registres :
 "0	CHAR	0
 	<br/><code>:BundleInstall</code><br/>
-""1	LINE	0
+"1	LINE	0
 	
 	
 "2	LINE	0
@@ -51,24 +59,53 @@
 	  let g:airline_detect_iminsert=0
 "l	CHAR	0
 	jkdl
-"-	CHAR	0
-	1
+""-	CHAR	0
+	/
 
 # Marques dans le fichier :
-'0  13  4  ~/.vimrc
-'1  1  0  ~/Memo_VIM.vim
-'2  45  104  ~/Memo_VIM.vim
-'3  89  104  ~/Memo_VIM.vim
-'4  110  0  ~/Memo_VIM.vim
-'5  25  0  ~/README.md
-'6  23  31  ~/README.md
-'7  35  0  ~/Memo_VIM
-'8  1  0  ~/.vimrc
-'9  45  11  ~/.vimrc
+'0  37  0  ~/container-gns3/gns3-large/myrun.sh
+'1  14  33  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+'2  12  15  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+'3  1  0  ~/.task/task.3157.2.task
+'4  15  0  ~/.taskrc
+'5  31  6  ~/.taskrc
+'6  43  0  ~/.task/task.5093.1.task
+'7  45  0  ~/.task/task.5042.1.task
+'8  2  4  ~/.bashrc
+'9  1  0  ~/.bashrc
 
 # Liste de sauts (le plus récent en premier) :
--'  13  4  ~/.vimrc
+-'  37  0  ~/container-gns3/gns3-large/myrun.sh
+-'  1  0  ~/container-gns3/gns3-large/myrun.sh
+-'  14  33  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+-'  83  23  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+-'  74  15  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+-'  68  15  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+-'  66  16  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+-'  48  22  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+-'  13  51  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+-'  12  17  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+-'  11  31  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+-'  1  0  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+-'  38  2  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+-'  31  0  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+-'  1  0  ~/.task/task.3157.2.task
+-'  15  0  ~/.taskrc
+-'  1  0  ~/.taskrc
+-'  31  6  ~/.taskrc
+-'  43  0  ~/.task/task.5093.1.task
+-'  1  0  ~/.task/task.5093.1.task
+-'  45  0  ~/.task/task.5042.1.task
+-'  1  0  ~/.task/task.5042.1.task
+-'  2  4  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  1  0  ~/.bash_rc
+-'  3  0  ~/.vimrc
 -'  1  0  ~/.vimrc
+-'  47  0  ~/.vimrc
+-'  1  0  ~/firewall.sh
+-'  1  0  ~/[Vundle] Installer
+-'  13  4  ~/.vimrc
 -'  1  0  ~/Memo_VIM.vim
 -'  45  104  ~/Memo_VIM.vim
 -'  89  104  ~/Memo_VIM.vim
@@ -80,7 +117,6 @@
 -'  1  0  ~/Memo_VIM
 -'  45  11  ~/.vimrc
 -'  44  14  ~/.vimrc
--'  47  0  ~/.vimrc
 -'  48  9  ~/.vimrc
 -'  18  0  ~/.vimrc
 -'  12  1  ~/.vimrc
@@ -126,50 +162,65 @@
 -'  81  0  ~/.vimrc
 -'  87  0  ~/.vimrc
 -'  89  0  ~/.vimrc
--'  80  0  ~/.vimrc
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  64  0  ~/.vimrc
--'  66  0  ~/.vimrc
--'  57  0  ~/.vimrc
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
--'  1  0  ~/texte
+-'  14  33  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+-'  83  23  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+-'  74  15  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+-'  68  15  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+-'  66  16  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+-'  48  22  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+-'  13  51  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+-'  12  17  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+-'  11  31  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+-'  1  0  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+-'  38  2  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+-'  31  0  ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
 
 # Historique des marques dans les fichiers (les plus récentes en premier) :
 
+> ~/container-gns3/gns3-large/myrun.sh
+	"	37	0
+
+> ~/Téléchargements/FusionInventory-Agent-2.3.17/etc/agent.cfg
+	"	14	33
+	^	14	34
+	.	14	33
+	+	12	15
+	+	14	33
+
+> ~/.task/task.3157.2.task
+	"	1	0
+
+> ~/.taskrc
+	"	15	0
+	^	15	0
+	.	15	0
+	+	31	20
+	+	33	54
+	+	31	6
+	+	15	0
+
+> ~/.task/task.5093.1.task
+	"	43	0
+
+> ~/.task/task.5042.1.task
+	"	45	0
+
+> ~/.bashrc
+	"	2	4
+	^	2	5
+	.	2	4
+	+	1	14
+	+	2	19
+	+	1	13
+	+	2	4
+
+> ~/.bash_rc
+	"	1	0
+
 > ~/.vimrc
-	"	13	4
-	^	13	5
-	.	13	4
+	"	3	0
+	^	3	0
+	.	3	0
 	+	1	0
 	+	58	0
 	+	57	0
@@ -221,6 +272,20 @@
 	+	13	0
 	+	14	0
 	+	13	4
+	+	3	0
+
+> ~/firewall.sh
+	"	1	0
+
+> ~/[Vundle] Installer
+	"	1	0
+	.	1	0
+	+	29	0
+	+	19	0
+	+	15	0
+	+	11	0
+	+	6	0
+	+	1	0
 
 > ~/Memo_VIM.vim
 	"	1	0
@@ -260,14 +325,6 @@
 
 > /usr/share/vim/vim74/doc/help.txt
 	"	1	0
-
-> ~/[Vundle] Installer
-	"	5	0
-	.	1	0
-	+	19	0
-	+	9	0
-	+	5	0
-	+	1	0
 
 > ~/texte
 	"	1	0
